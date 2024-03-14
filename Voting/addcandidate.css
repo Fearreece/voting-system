@@ -1,0 +1,79 @@
+/* Reset default margin and padding*/
+body, h1, form, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set up basic styling*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    position: relative; /* Needed for absolute positioning*/
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure the padding and border are included in the width*/
+}
+
+.submit-btn,
+.dashboard-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block; /* To place the buttons on the same level*/
+}
+
+.submit-btn {
+    background-color: #007bff; /* Blue*/
+    color: #fff;
+    border: none;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Darker blue*/
+}
+
+.dashboard-btn {
+    background-color: #28a745; /* Green*/
+    color: #fff;
+    border: none;
+    margin-left: 0; /* Add some margin to separate the buttons*/
+}
+
+.dashboard-btn:hover {
+    background-color: #218838; /* Darker green*/
+}
+
+.button-container {
+    text-align: center; /* Center the buttons*/
+    margin-top: 20px;
+}

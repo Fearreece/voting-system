@@ -1,0 +1,197 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+/* Container styles */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles */
+.navbar {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #FF5A5F;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #D23F45;
+}
+
+/* User section styles */
+.user-section h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-detail {
+    margin-bottom: 15px;
+}
+
+.profile-detail label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-detail span {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Voting section styles */
+.voting-section h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.voting-info {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.voting-detail {
+    margin-bottom: 15px;
+}
+
+.voting-detail h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.voting-detail p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Styles for the dropdown */
+.post-dropdown {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+/* Styles for the dropdown options */
+.post-dropdown option {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Styles for the candidates section */
+.candidates-for-post {
+    margin-top: 20px;
+}
+
+.candidates-for-post h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.candidates-for-post button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.candidates-for-post button:hover {
+    background-color: #0056b3;
+}
+
+/* Add this CSS to your existing dashboard.css file */
+
+/* Candidate styles */
+.candidate {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.candidate-image {
+    max-width: 100px; /* Adjust the maximum width as needed */
+    max-height: 200px; /* Adjust the maximum height as needed */
+    border-radius: 10%;
+}
+
+/* Add this CSS to your existing dashboard.css file */
+
+/* Candidate name styles */
+.candidate-name {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold; /* Make the candidate name bold */
+    font-family: 'Arial', sans-serif; /* Change the font family */
+    color: #555; /* Change the color of the candidate name */
+}
+
+
+/* Vote and unvote button styles */
+.candidate button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.candidate button:hover {
+    background-color: #0056b3;
+}
+
+.candidate.voted button {
+    background-color: #ccc;
+    color: #666;
+    pointer-events: none;
+}
+
+
+
+
